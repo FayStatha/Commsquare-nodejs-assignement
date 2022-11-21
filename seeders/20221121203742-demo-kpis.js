@@ -44,7 +44,7 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('kpi1', null, {});
-    await queryInterface.bulkDelete('kpi2', null, {});
+    await queryInterface.bulkDelete('kpi1s', null, {});
+    await queryInterface.bulkDelete('kpi2s', null, {});
   }
 };
