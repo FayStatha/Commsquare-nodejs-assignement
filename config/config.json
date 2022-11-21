@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "shlyctcu",
+    "password": "ukFI0InAlUKO4vlOJA8NddSq50vQJRNU",
+    "database": "shlyctcu",
+    "host": "surus.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}

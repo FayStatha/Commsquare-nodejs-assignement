@@ -25,7 +25,7 @@ db.sequelize.sync()
 
 
 app.listen(8000, '0.0.0.0', function () {
-  console.log('App listening on port 5000! Go to http://localhost:8000/')
+  console.log('App listening on port 8000! Go to http://localhost:8000/')
 });
 
 module.exports = app;
