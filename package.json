@@ -11,6 +11,7 @@
     "run_dev": "npm run migrate && npm run seed && npm start"
   },
   "devDependencies": {
+    "joi": "^17.7.0",
     "nodemon": "^2.0.8"
   },
   "dependencies": {

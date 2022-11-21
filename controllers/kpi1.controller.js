@@ -1,6 +1,7 @@
 const db = require("../models");
-const {Op} = require("sequelize");
 const {kpi1} = db;
+const {Op} = require("sequelize");
+
 
 exports.get_kpi1 = (req, res, next) => {
     let query = [];
