@@ -67,7 +67,7 @@ exports.get_kpi1 = (req, res, next) => {
         .catch(err => {
             res.status(500).send({
                 message:
-                    err.message || "Some error occurred while retrieving answers."
+                    err.message || "Something went wrong. Try again later!"
             });
         });
 }
